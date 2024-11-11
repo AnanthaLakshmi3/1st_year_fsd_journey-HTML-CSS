@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Forms Tag</title>
+  <style>
+    fieldset{
+      width: 200px;
+      align-content: center;
+      height: 100px;
+    }
+    legend
+    {
+      background-color: orange;
+      color: white;
+      padding: 5px 20px;
+    }
+
+  </style>
+
+
+</head>
+<body>
+   <form action="response.html" target="_blank">  <center>
+     <h1>Login Form</h1>
+     First Name:<input type="text" name="fname" placeholder="Enter First Name"  maxlength="15"></input> &emsp;&emsp;
+
+     Last Name:<input type="text" name="fname" placeholder="Enter Last Name" minlength="10"></input><br><br>
+
+    Email &nbsp;:<input type="email" name="Email" placeholder="Enter Email"></input>&emsp;&emsp;&emsp;
+
+     Mobile:<input type="tel" name="num" placeholder="Enter Mobile num"></input><br><br>
+
+     Place:<input type="text" name="place" placeholder="Enter place"></input>&emsp;&emsp;&emsp;&emsp;
+
+     Date of Birth:<input type="datetime-local" name="date" ></input><br><br>
+
+     Time: <input type="time"  ></input> &emsp;&emsp;
+
+     month: <input type="month"  ></input>&emsp;&emsp;
+
+     Age:<input type="number" name="number" placeholder="Enter Age" max="50"></input><br><br>
+
+     college:<select>
+     	<option>Select</option>
+     	<option>AEC</option>
+     	<option>AECT</option>
+     	<option>ACOE</option>
+     </select>&emsp;&emsp;&emsp;&emsp;
+
+     <input type="color" ></input> &emsp;&emsp;&emsp;&emsp;
+
+       password:<input type="text" name="password" placeholder="Enter password" required minlength="8" 
+     ></input><br><br>
+
+     Gender: <input type="radio" name="gender" >Female</input>
+            <input type="radio" name="gender" >Male</input>
+            <input type="radio" name="gender" >None</input><br><br>
+
+    Languages Known: 
+     English:<input type="checkbox" value="en"></input>
+     Telugu: <input type="checkbox" value="tel" ></input>
+     Hindi: <input type="checkbox" value="hin"  ></input><br><br>
+
+     Uploade File: <input type="file"  ></input>&emsp;&emsp;&emsp;&emsp;
+
+      Url: <input type="url"  ></input><br><br>
+
+     <input type="button" value="Next"  ></input>&emsp;&emsp;&emsp;&emsp;
+
+     Rate our Experience <input type="range"  ></input> &emsp;&emsp;&emsp;&emsp;
+
+      search: <input type="search"  ></input><br><br>
+
+      comments &nbsp; :<textarea cols="10" rows="3" name="address"> Durga anantha lakshmi</textarea>&emsp;&emsp;&emsp;&emsp;
+
+     <input type="submit"  value="Login"></input>
+
+      <input type="reset" ></input><br><br>
+
+      <fieldset>
+               <legend> Choose your fav city</legend>
+          <div>
+             
+               <input type="radio" name="city">
+              <labe> Hyderabad</label><br>
+               <input type="radio" name="city">
+              <labe> Banglore</label><br>
+               <input type="radio" name="city">
+              <labe> Chennai</label><br>
+
+
+
+
+          </div>
+
+      </fieldset>
+
+    </center> </form>
+</body>
+</html>
