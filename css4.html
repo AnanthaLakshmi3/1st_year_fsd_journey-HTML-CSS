@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Attribute Selectors</title>
+	<style>
+		p[type="para"]{
+			background: blue;
+			color: white;
+		}
+		h2[type~="heading"]{
+			background: blue;
+			color: white;
+		}
+		p[type|="write"]
+		{
+			background: blue;
+			color: white;
+		}
+		p[type^="Anantha"]
+		{
+			background: blue;
+			color: white;
+		}
+		p[type$="Bala "]
+		{
+			background: blue;
+			color: white;
+		}
+		p[type*="Bala"]
+		{
+			background: blue;
+			color: white;
+		}
+		input[type="email"]{
+			
+			background: blue;
+			color: white;
+		}
+
+	</style>
+</head>
+<body>
+     <h2 type="heading tag" >this is heading 1</h2>
+
+    <p type="paragraph">This is paragraph 1</p>
+    <p type="write-d" >This is paragraph 2</p>
+    <p type="Anantha Lakshmi">This is paragraph 3</p>
+    <p type=" Manikanta Bala" >This is paragraph 4</p>
+    <p  type="BalaManikanta">This is paragraph 5</p>
+
+    Name:<input type="text"><br><br>
+    Email:<input type="email">
+</body>
+</html>
